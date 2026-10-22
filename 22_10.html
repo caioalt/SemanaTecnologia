@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Tecnologia e Cultura - IFCE Campus Maranguape</title>
+    <style>
+        /* Tipografia principal e fundo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(245, 247, 250); /* Cor em formato rgb() */
+            color: #333333; /* Cor em Hexadecimal */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Requisitos de Tipografia */
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #1b5e20;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #0d47a1;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* 1. Cabeçalho */
+        header {
+            background-color: #e8f5e9;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* 2. Menu de Navegação */
+        nav {
+            background-color: #1b5e20; /* Cor diferente do cabeçalho */
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white; /* Cor por Nome */
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* Efeito :hover nos links do menu */
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Seções Principais */
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #cccccc;
+        }
+
+        /* Seção Sobre - Texto Justificado */
+        #sobre p {
+            text-align: justify;
+        }
+
+        /* Imagem da Seção Sobre */
+        .imagem-sobre {
+            width: 400px;
+            height: 250px;
+            border: 3px solid #1b5e20;
+            display: block;
+            margin-top: 15px;
+        }
+
+        /* Tabela da Seção Programação */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #666666;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(230, 230, 230);
+        }
+
+        /* Classe comum para as três caixas de atividades */
+        .caixa-atividade {
+            width: 300px;
+            height: 180px;
+            padding: 20px;
+            margin: 15px;
+            box-sizing: border-box;
+        }
+
+        .caixa-atividade h3 {
+            font-weight: bold; /* Destaque no título */
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        /* Caixa 1: Fundo azul-claro, borda azul-escura 3px e cantos retos */
+        .caixa-1 {
+            background-color: rgb(224, 247, 250);
+            border: 3px solid darkblue;
+            border-radius: 0px;
+        }
+
+        /* Caixa 2: Fundo verde-claro, borda verde 3px e border-radius de 15px */
+        .caixa-2 {
+            background-color: lightgreen;
+            border: 3px solid green;
+            border-radius: 15px;
+        }
+
+        /* Caixa 3: Fundo vermelho-claro, borda roxa de 5px, border-radius de 30px e topo esquerdo 0px */
+        .caixa-3 {
+            background-color: #ffebee;
+            border: 5px solid purple;
+            border-radius: 30px;
+            border-top-left-radius: 0px;
+        }
+
+        /* 7. Rodapé */
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Cabeçalho -->
+    <header>
+        <h1>Semana de Tecnologia e Cultura</h1>
+        <p>O IFCE Campus Maranguape convida todos os alunos e a comunidade para uma edição especial recheada de Batalhas Pokémon, muita música com um show de rock ao vivo e uma praça de alimentação com comidas deliciosas!</p>
+    </header>
+
+    <!-- 2. Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <!-- 3. Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre o Evento</h2>
+        <p>A Semana de Tecnologia e Cultura do IFCE Campus Maranguape traz nesta edição uma união perfeita entre cultura pop, entretenimento e música de qualidade. O grande atrativo da semana será a arena de Batalhas Pokémon, onde os treinadores do campus disputarão para ver quem possui a melhor estratégia. Além dos torneios, teremos um eletrizante Show de Rock com bandas convidadas para animar o público.</p>
+        <p>Para garantir a energia de todos durante o evento, haverá também uma feira gastronômica com muita comida boa e opções diversificadas para os participantes. É a oportunidade perfeita de aprender, se divertir com os amigos, saborear bons pratos e curtir o melhor da cultura geek e do rock dentro do IFCE.</p>
+        <img src="https://portal.ifce.edu.br/media/images/Maranguape_frente.width-500.png" alt="IFCE Campus Maranguape" class="imagem-sobre">
+    </section>
+
+    <!-- 4. Seção Programação -->
+    <section id="programacao">
+        <h2>Programação</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Nome da Atividade</th>
+                    <th>Local</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 - 10:30</td>
+                    <td>Apresentação Musical (Banda de Rock)</td>
+                    <td>Palco Principal</td>
+                </tr>
+                <tr>
+                    <td>10:30 - 14:00</td>
+                    <td>Momento Livre (Batalhar, comer, etc.)</td>
+                    <td>Área de Convivência e Praça de Alimentação</td>
+                </tr>
+                <tr>
+                    <td>14:00 - 17:00</td>
+                    <td>Grandes Batalhas Pokémon dos Maiores Treinadores</td>
+                    <td>Arena do Ginásio</td>
+                </tr>
+                <tr>
+                    <td>17:00 - 18:00</td>
+                    <td>Encerramento</td>
+                    <td>Palco Principal</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 5. Seção Atividades -->
+    <section id="atividades">
+        <h2>Atividades</h2>
+        
+        <!-- Caixa 1 -->
+        <div class="caixa-atividade caixa-1">
+            <h3>Batalhas Pokémon</h3>
+            <p>Traga seus Pokémon e enfrente os maiores treinadores do IFCE Campus Maranguape.</p>
+            <a href="#programacao">Mais informações</a>
+        </div>
+
+        <!-- Caixa 2 -->
+        <div class="caixa-atividade caixa-2">
+            <h3>Praça de Alimentação</h3>
+            <p>Muita comida boa e variada para recarregar as energias durante todo o evento.</p>
+            <a href="#programacao">Mais informações</a>
+        </div>
+
+        <!-- Caixa 3 -->
+        <div class="caixa-atividade caixa-3">
+            <h3>Show de Rock</h3>
+            <p>Apresentação imperdível de banda de rock para agitar o público presente.</p>
+            <a href="#programacao">Mais informações</a>
+        </div>
+    </section>
+
+    <!-- 6. Seção Inscrições -->
+    <section id="inscricoes">
+        <h2>Inscrições</h2>
+        <p>A participação no evento é aberta a todos os alunos e à comunidade externa. As inscrições para os torneios e oficinas são gratuitas!</p>
+        <p><a href="https://ifce.edu.br" target="_blank">Clique aqui para acessar o site do IFCE</a></p>
+    </section>
+
+    <!-- 7. Rodapé -->
+    <footer>
+        <p>Instituto Federal do Ceará (IFCE) - Campus Maranguape</p>
+        <p>&copy; Caio e William</p>
+    </footer>
+
+</body>
+</html>
